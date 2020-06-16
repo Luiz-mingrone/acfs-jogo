@@ -24,7 +24,7 @@ void Start () {
 void   Update () {
         
          //depois que o carro passar por esta plataforma ela será transportada para 180 posições pra frente(aparece atras das outras duas plataformas criando um loop)
- 		 if(cubo.transform.position.z > this.transform.position.z+40 && criarObjeto = true )
+ 		 if(cubo.transform.position.z > this.transform.position.z+40 && criarObjeto == true )
          {
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z+180);
                     
