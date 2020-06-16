@@ -31,6 +31,7 @@ using System.Collections;
          if (Input.GetButton("Jump"))
          {
              direcao.y = jumpforce;
+             //z para ele andar junto
              direcao.z = 5f;
              speed = 5f;
              
